@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(0, 0%, 20%);
+}
+#calculator {
+  width: 558px;
+  height: 618px;
+  margin: 130px auto;
+  border: 6px solid white;
+  border-radius: 40px;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  box-shadow: 5px 5px 20px 7px hsl(0, 0%, 30%),
+    -5px -5px 20px 7px hsl(0, 0%, 30%);
+}
+#screen {
+  width: auto;
+  height: 140px;
+  background-color: hsl(0, 0%, 19%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: #eae9e7;
+  font-size: 5em;
+  margin-bottom: 15px;
+  padding-right: 20px;
+}
+.btn {
+  font-size: 2em;
+  cursor: pointer;
+}
+.btnWrapper {
+  width: 96px;
+  height: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+.btnWrapper .btn {
+  width: 60%;
+  height: 60%;
+  border: none;
+  border-radius: 50%;
+}
+.btnWrapperEqual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnWrapperEqual .btn {
+  width: 88%;
+  height: 65%;
+  border: none;
+  border-radius: 50px;
+}
+.btnWrapperDot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+.btnWrapperDot .btn {
+  width: 66px;
+  height: 66px;
+  border: none;
+  border-radius: 50%;
+}
+#buttons {
+  width: auto;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+#firstRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+#secondRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+#thirdRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+}
+#fourthRow {
+  display: flex;
+  gap: 4px;
+}
+#fourthRow .red {
+  width: 60.3%;
+  height: 96px;
+}
+#fourthRow .white {
+  width: 39.7%;
+}
+.white {
+  background-color: #d4d0cc;
+  border: none;
+  border-radius: 7px;
+}
+.grey {
+  background-color: #80807e;
+  border: none;
+  border-radius: 7px;
+}
+.red {
+  background-color: #d64627;
+  border: none;
+  border-radius: 7px;
+}
+#buttonClear {
+  background-color: #d53127;
+  color: #ebe9e7;
+  box-shadow: -3px -3px 7px 4px #eae9e8, 3px 3px 7px 4px #92908c;
+}
+.btnWrapper .whiteShadow {
+  background-color: #d4d0cc;
+  color: black;
+  box-shadow: -3px -3px 10px 4px #eae9e8, 3px 3px 7px 4px #92908c;
+}
+.btnWrapperDot .whiteShadow {
+  background-color: #d4d0cc;
+  color: black;
+  box-shadow: -3px -3px 10px 4px #eae9e8, 3px 3px 7px 4px #92908c;
+}
+.btnWrapper .greyShadow {
+  background-color: #7f7f7e;
+  color: #ebe9e7;
+  box-shadow: -3px -3px 10px 4px #a1a19f, 3px 3px 7px 4px #535351;
+}
+#buttonEqual {
+  background-color: #d54627;
+  color: #ebe9e7;
+  box-shadow: -3px -3px 7px 4px #e9552f, 3px 3px 7px 4px #9f341d;
+}
+.grey:hover {
+  background-color: hsl(0, 0%, 54%);
+}
+.white:hover {
+  background-color: hsl(30, 9%, 88%);
+}
+.red:hover {
+  background-color: hsl(11, 69%, 55%);
+}

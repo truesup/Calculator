@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="screen"></div>
+      <div id="buttons">
+        <div id="firstRow">
+          <div class="btnWrapper white">
+            <button id="buttonClear" class="btn">C</button>
+          </div>
+          <div class="btnWrapper grey">
+            <button id="buttonMultiply" class="btn greyShadow">×</button>
+          </div>
+          <div class="btnWrapper grey">
+            <button id="buttonMinus" class="btn greyShadow">-</button>
+          </div>
+          <div class="btnWrapper grey">
+            <button id="buttonPlus" class="btn greyShadow">+</button>
+          </div>
+          <div class="btnWrapper grey">
+            <button id="buttonDivide" class="btn greyShadow">÷</button>
+          </div>
+        </div>
+
+        <div id="secondRow">
+          <div class="btnWrapper white">
+            <button id="buttonOne" class="btn whiteShadow">1</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonTwo" class="btn whiteShadow">2</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonThree" class="btn whiteShadow">3</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonFour" class="btn whiteShadow">4</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonFive" class="btn whiteShadow">5</button>
+          </div>
+        </div>
+
+        <div id="thirdRow">
+          <div class="btnWrapper white">
+            <button id="buttonSix" class="btn whiteShadow">6</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonSeven" class="btn whiteShadow">7</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonEight" class="btn whiteShadow">8</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonNine" class="btn whiteShadow">9</button>
+          </div>
+          <div class="btnWrapper white">
+            <button id="buttonZero" class="btn whiteShadow">0</button>
+          </div>
+        </div>
+
+        <div id="fourthRow">
+          <div class="btnWrapperEqual red">
+            <button id="buttonEqual" class="btn">=</button>
+          </div>
+          <div class="btnWrapperDot white">
+            <button id="buttonDot" class="btn whiteShadow">.</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
